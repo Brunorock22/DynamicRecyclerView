@@ -4,8 +4,9 @@
     android:orientation="vertical"
     android:layout_height="wrap_content"
     android:padding="15dp">
-<TextView
+<ImageView
     android:id="@+id/item_list"
     android:layout_width="match_parent"
+    android:background="@mipmap/ic_launcher_round"
     android:layout_height="wrap_content"/>
 </LinearLayout>
