@@ -9,7 +9,7 @@ import com.example.recyclerstudying.ReviewRow
 import com.example.recyclerstudying.adapter.viewholder.GeralViewHolder
 import kotlinx.android.synthetic.main.item_coment.view.*
 
-class ReviewAdapter(private val viewHolderDatas: List<ReviewRow>) :
+class DynamicAdapter(private val viewHolderDatas: List<ReviewRow>) :
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     private val layoutMap = mutableMapOf<Int, Int>()
 
